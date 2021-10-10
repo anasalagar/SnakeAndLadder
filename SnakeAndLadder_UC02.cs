@@ -9,7 +9,10 @@ namespace ConsoleApp21
     class Program
     {
         static void Main(string[] args)
-        {
+        { const int POSITION = 0;
+            Console.WriteLine("Snake and Ladder game played with single player at start position 0");
+            
+
             Console.WriteLine("******WELCOME******\nSnake And Ladder");
             Random r = new Random();
             int player = r.Next(0, 6) + 1;
